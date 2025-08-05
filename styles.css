@@ -5,27 +5,44 @@ body {
   background: #f4f4f4;
   color: #333;
 }
+
 header {
   background: linear-gradient(90deg, #0033cc, #ffcc00);
   padding: 2rem;
   text-align: center;
   color: white;
   box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
 }
+
+header img.logo {
+  width: 80px;
+  height: auto;
+  border: 4px solid gold;
+  border-radius: 12px;
+}
+
 header h1 {
   margin: 0;
   font-family: Papyrus, fantasy;
   font-size: 3rem;
 }
+
 .subtitulo {
   font-size: 1.2rem;
   font-weight: 300;
 }
+
 section {
   padding: 2rem;
   max-width: 900px;
   margin: auto;
 }
+
 .invitacion img {
   width: 100%;
   max-height: 400px;
@@ -33,16 +50,19 @@ section {
   border-radius: 12px;
   box-shadow: 0 4px 8px rgba(0,0,0,0.2);
 }
+
 .invitacion iframe,
 .ubicacion iframe {
   width: 100%;
   border-radius: 12px;
   margin-top: 1rem;
 }
+
 audio {
   margin-top: 1rem;
   width: 100%;
 }
+
 #contador {
   font-size: 2rem;
   font-weight: bold;
@@ -50,10 +70,12 @@ audio {
   text-align: center;
   margin-top: 1rem;
 }
+
 ul {
   list-style: none;
   padding: 0;
 }
+
 ul li {
   background: #eaf0ff;
   margin-bottom: 10px;
@@ -61,6 +83,7 @@ ul li {
   border-left: 5px solid #0033cc;
   border-radius: 5px;
 }
+
 footer {
   background: #0033cc;
   color: white;
