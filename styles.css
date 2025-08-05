@@ -82,12 +82,12 @@ audio {
 
 /* CONTADOR */
 #contador {
-  font-size: 2rem;
-  font-weight: bold;
-  color: #0033cc;
+  font-size: 3rem; /* Más grande */
+  font-family: 'Cormorant Garamond', serif; /* O la que tú quieras */
+  font-weight: 600;
+  color: #111; /* Negro más oscuro */
   text-align: center;
-  margin-top: 1rem;
-}
+  letter-spacing: 2px;
 
 /* LISTAS */
 ul {
