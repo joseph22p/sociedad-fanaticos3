@@ -112,16 +112,14 @@ footer {
   padding: 1rem;
 }
 
-/* ESTILO PERSONALIZADO PARA PÁRRAFO DESTACADO */
-.menasje-especial {
-  font-family: 'Georgia', serif;
+/* MENSAJE ESPECIAL */
+.mensaje {
+  font-family: 'Cormorant Garamond', serif;
   font-size: 1.1rem;
-  line-height: 1.6;
+  line-height: 1.8;
   color: #222;
-  text-align: center;
-  margin-top: 1.5rem;
+  text-align: justify;
 }
-
 
 /* RESPONSIVE (celulares y pantallas pequeñas) */
 @media (max-width: 600px) {
