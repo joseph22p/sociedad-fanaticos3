@@ -11,7 +11,7 @@ setInterval(() => {
   const minutos = Math.floor((distancia % (1000 * 60 * 60)) / (1000 * 60));
   const segundos = Math.floor((distancia % (1000 * 60)) / 1000);
 
-  contador.innerHTML = `Faltan ${dias}d ${horas}h ${minutos}m ${segundos}s`;
+  contador.innerHTML = `${dias}:${horas}:${minutos}:${segundos}`;
 
   if (distancia < 0) {
     contador.innerHTML = "¡El evento ya ha comenzado!";
