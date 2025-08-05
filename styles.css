@@ -1,11 +1,21 @@
-/* styles.css */
-body {
+/* RESET Y CONFIGURACIÓN GLOBAL */
+* {
+  box-sizing: border-box;
+}
+
+html, body {
   margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   background: #f4f4f4;
   color: #333;
 }
 
+/* HEADER */
 header {
   background: linear-gradient(90deg, #0033cc, #ffcc00);
   padding: 2rem;
@@ -24,6 +34,7 @@ header img.logo {
   height: auto;
   border: 4px solid gold;
   border-radius: 12px;
+  max-width: 100%;
 }
 
 header h1 {
@@ -37,18 +48,22 @@ header h1 {
   font-weight: 300;
 }
 
+/* CONTENEDORES Y SECCIONES */
 section {
   padding: 2rem;
   max-width: 900px;
   margin: auto;
+  width: 100%;
 }
 
+/* INVITACIÓN */
 .invitacion img {
   width: 100%;
   max-height: 400px;
   object-fit: cover;
   border-radius: 12px;
   box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  display: block;
 }
 
 .invitacion iframe,
@@ -56,13 +71,16 @@ section {
   width: 100%;
   border-radius: 12px;
   margin-top: 1rem;
+  display: block;
 }
 
 audio {
   margin-top: 1rem;
   width: 100%;
+  display: block;
 }
 
+/* CONTADOR */
 #contador {
   font-size: 2rem;
   font-weight: bold;
@@ -71,9 +89,11 @@ audio {
   margin-top: 1rem;
 }
 
+/* LISTAS */
 ul {
   list-style: none;
   padding: 0;
+  margin: 0;
 }
 
 ul li {
@@ -84,6 +104,7 @@ ul li {
   border-radius: 5px;
 }
 
+/* PIE DE PÁGINA */
 footer {
   background: #0033cc;
   color: white;
@@ -91,6 +112,7 @@ footer {
   padding: 1rem;
 }
 
+/* RESPONSIVE (celulares y pantallas pequeñas) */
 @media (max-width: 600px) {
   header h1 {
     font-size: 2rem;
@@ -122,6 +144,6 @@ footer {
   }
 
   .imagen-lateral {
-    display: none; /* Oculta las imágenes laterales para más espacio en celulares */
+    display: none; /* Oculta imágenes decorativas laterales */
   }
 }
