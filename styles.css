@@ -122,6 +122,13 @@ footer {
   padding: 2rem 
 }
 
+.nombre-destacado {
+  font-size: 1.6rem;
+  font-weight: bold;
+  display: inline-block;
+  color: #111; /* Negro más oscuro opcional */
+}
+
 /* RESPONSIVE (celulares y pantallas pequeñas) */
 @media (max-width: 600px) {
   header h1 {
